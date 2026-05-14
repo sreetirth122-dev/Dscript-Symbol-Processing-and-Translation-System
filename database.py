@@ -2,7 +2,8 @@ import json
 import os
 from datetime import datetime
 
-DB_FOLDER = os.path.join(os.getcwd(), "data")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_FOLDER = os.path.join(BASE_DIR, "data")
 DB_FILE = os.path.join(DB_FOLDER, "symbol_database.json")
 
 os.makedirs(DB_FOLDER, exist_ok=True)
