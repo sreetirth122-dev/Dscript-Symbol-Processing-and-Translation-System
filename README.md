@@ -1,10 +1,10 @@
-**Dscript Symbol Processing and Translation System**
+# **Dscript Symbol Processing and Translation System**
 
 A graph-based computational framework for processing, analyzing, storing, reconstructing, and translating symbols from the Dscript symbolic writing system.
 The project combines computer vision, skeleton analysis, graph traversal, normalization, database construction, and symbolic rendering into a modular software architecture capable of converting Dscript symbols into structured computational representations and translating English text into Dscript symbolic output.
 
   
-**Features**
+## **Features**
 
 * Dscript symbol image processing  
 * Skletonization and keypoint detection  
@@ -17,7 +17,7 @@ The project combines computer vision, skeleton analysis, graph traversal, normal
 * Symbol viewer and database browser  
 
   
-**Project Structure**
+## **Project Structure**
 
 project/  
 │  
@@ -36,7 +36,7 @@ project/
 └── README.md  
 
 
-**Technologies used**
+## **Technologies used**
 
 | Category              | Technology   |
 | --------------------- | ------------ |
@@ -50,7 +50,7 @@ project/
 | Data Storage          | JSON         |
 
 
-**Processing Pipeline**
+## **Processing Pipeline**
 
 Image Input  
     ↓  
@@ -71,7 +71,7 @@ Database Storage
 Translation Rendering  
 
 
-**How It Works**
+## **How It Works**
 
 1. Symbol Input  
 Users upload Dscript symbol images and associate them with English alphabet characters.
@@ -119,7 +119,7 @@ The translator:
 * renders symbolic output visually  
 
 
-**Running the Project**
+## **Running the Project**
 
 Install Dependencies  
 * opencv-python  
@@ -132,7 +132,7 @@ Run the Application
 app.py  
 
 
-**GUI Modules**
+## **GUI Modules**
 
 Home Screen  
 * Input Symbol  
@@ -156,7 +156,7 @@ Translator
 * Preserves punctuation and spacing  
 
 
-**Current Limitations**
+## **Current Limitations**
 
 * Reverse translation is not fully implemented  
 * Symbol mapping is currently manual  
@@ -165,7 +165,7 @@ Translator
 * Complex overlapping structures may affect extraction  
 
 
-**Future Scope**
+## **Future Scope**
 
 * Reverse translation engine  
 * Machine learning-based symbol recognition  
@@ -174,7 +174,7 @@ Translator
 * Dscript font generation  
 * Real-time translation system  
 
-**Research Focus**
+## **Research Focus**
 
 This project explores:  
 * symbolic language processing  
@@ -183,11 +183,11 @@ This project explores:
 * translation architectures for non-standard scripts  
 
 
-**Author**
+## **Author**
 
 Sreetirth K K
 
 
-**License**
+## **License**
 
 This project is intended for academic and research purposes.
